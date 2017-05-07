@@ -4,7 +4,6 @@
   "private": true,
   "description": "Example project from an angular.io guide.",
   "scripts": {
-    "start": "node server.express.js",
     "start:dev": "webpack-dev-server --inline --progress --port 8080",
     "test": "karma start karma.webpack.conf.js",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --bail",
@@ -28,7 +27,6 @@
     "@angular/upgrade": "~4.0.0",
     "angular-in-memory-web-api": "~0.3.1",
     "core-js": "^2.4.1",
-    "express": "^4.15.2",
     "rxjs": "5.0.1",
     "zone.js": "^0.8.4"
   },
